@@ -1,6 +1,6 @@
 # Airbnb Data Visualization Web App
 
-[![Presentation Video](https://img.youtube.com/vi/PLACEHOLDER/0.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER)
+[![Presentation Video]](https://www.youtube.com/watch?v=OLLfbRGbT1c)
 > _Click the link above to watch the project presentation._
 
 ## Overview

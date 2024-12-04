@@ -133,7 +133,7 @@ def bar_graph():
 @app.route('/scatter_plot')
 def scatter_plot():
     """Creates and returns a scatter plot of price vs. availability by room type with distinct colors."""
-    # Dynamically generate distinct colors for each room type
+    # generate distinct colors for each room type
     room_type_colors = {
         "Entire home/apt": [0.1, 0.6, 0.8],  # Light blue
         "Private room": [0.8, 0.1, 0.2],  # Red
