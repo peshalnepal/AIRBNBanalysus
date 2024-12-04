@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart Viewer</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Navigation Arrow -->
+      <button class="arrow left" onclick="prevChart()">&#9664;</button>
+
+      <!-- Chart Box -->
+      <div class="chart-box">
+        <iframe id="chart-frame" src="" frameborder="0"></iframe>
+        <div class="description" id="description"></div>
+      </div>
+
+      <!-- Right Navigation Arrow -->
+      <button class="arrow right" onclick="nextChart()">&#9654;</button>
+    </div>
+
+    <!-- Inject Chart Data -->
+    <script type="application/json" id="chart-data">
+      {{ charts | tojson | safe }}
+    </script>
+
+    <!-- Link to JavaScript -->
+    <script src="/static/script.js"></script>
+  </body>
+</html>
