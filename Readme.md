@@ -1,6 +1,6 @@
 # Airbnb Data Visualization Web App
 
-[![Presentation Video]](https://www.youtube.com/watch?v=OLLfbRGbT1c)
+[Presentation Video](https://www.youtube.com/watch?v=OLLfbRGbT1c)
 > _Click the link above to watch the project presentation._
 
 ## Overview
